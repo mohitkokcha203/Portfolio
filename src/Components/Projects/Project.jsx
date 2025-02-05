@@ -8,9 +8,8 @@ import project3 from '../../assets/Project3.png'
 import project4 from '../../assets/Project4.png'
 import project5 from '../../assets/Project5.png'
 
-const projectsData = 
- 
-[
+
+const projectsData = [
    {
      "id": 1,
      "image":
@@ -67,6 +66,8 @@ const projectsData =
    }
  ];
  
+
+
 
 function Project() {
   const [filter, setFilter] = useState("all");
