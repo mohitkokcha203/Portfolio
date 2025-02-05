@@ -12,7 +12,7 @@ import project5 from '../../assets/Project5.png'
 const projectsData = [
    {
      "id": 1,
-     "image":{project1},
+     "image":"src/assets/Project1.png",
      "title": "MERN E-Commerce Project",
      "view": "https://github.com/mohitkokcha203/Build-Nation",
      "code": "https://github.com/mohitkokcha203/Build-Nation",
