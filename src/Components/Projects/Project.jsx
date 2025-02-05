@@ -8,48 +8,65 @@ import project3 from '../../assets/Project3.png'
 import project4 from '../../assets/Project4.png'
 import project5 from '../../assets/Project5.png'
 
-const projectsData = [
-  {
-    id: 1,
-    image: project1,
-    title: "MERN E-Commerce Project",
-    view: "https://github.com/mohitkokcha203/Build-Nation",
-    code: "https://github.com/mohitkokcha203/Build-Nation",
-    type: "full stack",
-  },
-  {
-    id: 2,
-    image: project2,
-    title: "Personal Portfolio",
-    view: "https://portfolio-three-rho-26.vercel.app/",
-    code: "https://github.com/mohitkokcha203/Portfolio",
-    type: "frontend",
-  },
-  {
-    id: 3,
-    image: project3,
-    title: "Filmy Duniya Project",
-    view: "https://filmy-duniya-ochre.vercel.app/",
-    code: "https://github.com/mohitkokcha203/Filmy-Duniya",
-    type: "frontend",
-  },
-  {
-    id: 4,
-    image: project4,
-    title: "Weather App Project",
-    view: "https://weather-app-lake-six.vercel.app/",
-    code: "https://github.com/mohitkokcha203/Weather-App",
-    type: "frontend",
-  },
-  {
-    id: 5,
-    image: project5,
-    title: "Web Clone Project ",
-    view: "https://e-commerce-zeta-blue.vercel.app/",
-    code: "https://github.com/mohitkokcha203/E-commerce",
-    type: "frontend",
-  },
-];
+const projectsData = 
+ 
+[
+   {
+     "id": 1,
+     "image":
+       "src/assets/Project1.png",
+     "title": "MERN E-Commerce Project",
+     "view": "https://github.com/mohitkokcha203/Build-Nation",
+     "code": "https://github.com/mohitkokcha203/Build-Nation",
+     "type":"full stack "
+   },
+   {
+     "id": 2,
+     "image":
+       "src/assets/Project6.png",
+     "title": "Find Creator ",
+     "view": "https://github.com/mohitkokcha203/Find-Creator",
+     "code": "https://github.com/mohitkokcha203/Find-Creator",
+     "type":"full stack "
+   },
+   {
+     "id": 3,
+     "image":
+       "src/assets/Project2.png",
+     "title": "Personal Portfolio",
+     "view": "https://portfolio-three-rho-26.vercel.app/",
+     "code": "https://github.com/mohitkokcha203/Portfolio",
+     "type":"frontend "
+   },
+   {
+     "id": 4,
+     "image":
+       "src/assets/Project3.png",
+     "title": "Filmy Duniya Project",
+     "view": "https://filmy-duniya-ochre.vercel.app/",
+     "code": "https://github.com/mohitkokcha203/Filmy-Duniya",
+     "type":"frontend "
+   },
+   {
+     "id": 5,
+     "image":
+       "src/assets/Project4.png",
+     "title": "Weather App Project",
+     "view": "https://weather-app-lake-six.vercel.app/",
+     "code": "https://github.com/mohitkokcha203/Weather-App",
+     "type":"frontend "
+   },
+   {
+     "id": 6,
+     "image":
+       "src/assets/Project5.png",
+     "title": "Web Clone Project ",
+     "view": "https://e-commerce-zeta-blue.vercel.app/",
+     "code": "https://github.com/mohitkokcha203/E-commerce",
+     "type":"frontend "
+   }
+ ];
+ 
 
 function Project() {
   const [filter, setFilter] = useState("all");

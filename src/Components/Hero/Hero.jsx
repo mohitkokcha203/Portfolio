@@ -34,7 +34,7 @@ function Hero() {
                 repeat={Infinity}
               />
             </h3>
-            <a href='https://drive.google.com/file/d/1g6blnMBLuvM3xdJ7gIJYrjz-8ADYtq7V/view?usp=drivesdk' className='contactBtn'>Resume</a>
+            <a href='https://drive.google.com/file/d/1pEoA6QLSWDD9VlAExEA67Eg_2tI3HqFu/view?usp=drive_link' className='contactBtn'>Resume</a>
         </div>
         <div className='HeroImg-container'>
         <img src={HeroImage} alt="Hero Image"  className='HeroImg'/>
