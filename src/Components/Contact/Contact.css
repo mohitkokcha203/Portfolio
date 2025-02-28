@@ -1,0 +1,172 @@
+.contact {
+  background-color: #0c1b36;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-style: italic;
+}
+
+.contact-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left-part {
+  width: 20%;
+  color: white;
+}
+
+.heading {
+  padding-bottom: 8px;
+}
+
+.st06 {
+  color: #ca5555;
+  display: block;
+}
+
+.st03 {
+  line-height: 1.5rem;
+}
+
+.middle-part {
+  margin-left: -60px;
+}
+
+.right-part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+
+.email,
+.phone,
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.icon {
+  font-size: 1.6rem;
+  margin-right: 6px;
+  transition: 0.1s ease-in;
+}
+
+.icon:hover {
+  color: #ca5555;
+}
+
+.email-a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.head {
+  height: 100px;
+}
+
+.head .icon {
+  height: 40px;
+  width: 40px;
+}
+
+.st2 {
+  color: #ca5555;
+}
+
+@media screen and (max-width: 830px) {
+  .contact-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left-part {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .left-part h2 {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .st06 {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .st03 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .middle-part {
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right-part {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) { 
+  .contact { 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+  } 
+  .contact-box { 
+    flex-direction: column; 
+    align-items: center; 
+  } 
+  .left-part { 
+    width: 100%; 
+    text-align: center; 
+    margin-bottom: 10px; 
+  } 
+  .heading { 
+    font-size: 24px; 
+    padding-bottom: 5px; 
+  } 
+  .st06 { 
+    display: block; 
+    width: 100%; 
+    font-size: 22px; 
+  } 
+  .st03 { 
+    width: 100%; 
+    font-size: 18px; 
+    text-align: center; 
+    margin-top: 10px; 
+  } 
+  .middle-part { 
+    margin-left: 0; 
+    margin: 20px 0; 
+    align-items: center; 
+    justify-content: center; 
+  } 
+  .right-part { 
+    align-items: center; 
+    text-align: center; 
+  }  
+  .email, .phone, .location { 
+    flex-direction: column; 
+    margin-bottom: 10px; 
+  } 
+  .icon { 
+    font-size: 1.4rem; 
+    margin-right: 0; 
+  } 
+  .email-a { 
+    font-size: 16px; 
+  } 
+}

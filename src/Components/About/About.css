@@ -1,0 +1,128 @@
+.about {
+    padding-block: 100px;
+    width: 100%;
+    background-color: #04152d;
+}  
+
+
+.data {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 9999;
+}
+.head{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    color: #fff;
+}
+
+.about-icon{
+   height: 25px;
+   padding: 10px;
+}
+
+.img-box {
+        width: 300px;
+        height: 350px;
+        transition: 0.2s ease-in;
+}
+img {
+          width: 100%;
+          height: 100%;
+          border-radius: 10%;
+          object-fit: fill;
+}
+
+
+.content {
+        flex-basis: 55%;
+        color: white;
+        font-weight: lighter;
+}
+.pad1 {
+          padding-bottom: 8px;
+}
+.pad2 {
+          padding-block: 18px;
+          line-height: 1.6rem;
+}
+  
+.st1 {
+          color: #ae00ff;
+}
+      
+@media screen and (max-width: 850px) {
+    .about {
+      .data {
+        .img-box {
+          
+            align-self: center;
+            margin-top: 0px;
+            height: 400px;
+            width: 400px;
+          
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .about {
+      padding-block: 60px;
+  
+      .data {
+        flex-direction: column;
+        gap: 80px;
+        .img-box {
+          width: 320px;
+          height: 400px;
+          object-fit: contain;
+        }
+        .content {
+          padding-inline: 30px;
+          text-align: justify;
+          .center-heading {
+            text-align: center;
+          }
+          .pad2 {
+            padding-block: 30px;
+          }
+          .pad1 {
+            padding-block: 15px;
+          }
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .about {
+      padding-block: 40px;
+  
+      .data {
+        .img-box {
+          width: 320px;
+          height: 320px;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 380px) {
+    .about {
+      .data {
+        .content {
+          padding-inline: 10px;
+        }
+      }
+    }
+  }
+  

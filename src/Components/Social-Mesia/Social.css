@@ -1,0 +1,73 @@
+.social {
+  margin-top: 2%;
+}
+
+.social-icon .icon-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  z-index: 999;
+}
+
+.icon-list .list {
+  list-style: none;
+}
+
+.list .icon {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: rgb(225, 225, 225);
+  padding: 6px;
+  transition: 0.1s ease-out;
+  user-select: none;
+}
+
+.list .icon:hover {
+  color: #a100ebc4;
+}
+
+.list .icon:active {
+  color: #242424;
+}
+
+.list .icon-unique {
+  font-size: 1.9rem;
+}
+
+.list:hover {
+  animation: social 0.5s ease-out 0.1s 1 alternate;
+}
+
+@keyframes social {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 830px) { 
+  .social { 
+    margin-top: 4%; } 
+  .social-icon .icon-list { 
+    gap: 10px; } 
+  .list .icon { 
+    font-size: 1.5rem; 
+    padding: 5px; } 
+  .list .icon-unique {
+    font-size: 1.7rem; } 
+} 
+@media screen and (max-width: 480px) { 
+  .social { 
+    margin-top: 6%; } 
+  .social-icon .icon-list { 
+    flex-direction: column; 
+    gap: 8px; } 
+  .list .icon {
+    font-size: 1.4rem; 
+    padding: 4px; } 
+  .list .icon-unique { 
+    font-size: 1.6rem; }
+}

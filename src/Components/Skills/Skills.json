@@ -1,0 +1,108 @@
+[
+    
+    {
+        
+        "img": "https://cdn-icons-png.flaticon.com/128/174/174854.png",
+        "title": "HTML"
+    },
+    {
+        
+        "img": "https://cdn-icons-png.flaticon.com/128/732/732190.png",
+       "title": "CSS"
+    },
+    {
+        
+        "img": "https://cdn-icons-png.flaticon.com/128/5968/5968292.png",
+        "title": "JavaScript"
+    },
+    {
+     
+      "img": "https://cdn.worldvectorlogo.com/logos/react-1.svg",
+      "title": "ReactJS"
+    },
+  
+    {
+      
+      "img": "https://cdn-icons-png.flaticon.com/128/919/919825.png",
+      "title": "NodeJS"
+    },
+  
+    {
+      
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxGH4c9nGpPfgXTPPMJFIo7x4iVgrxWtxqvA&s",
+      "title": "ExpressJS"
+    },
+    {
+        
+        "img": "https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png",
+        "title": "MySQL"
+    },
+    {
+        
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9asRDthDxdLkfbnirNodJ4XAZsuwx8ok5rA&s",
+        "title": "MongoDB"
+    },
+  
+    {
+      
+      "img": "https://cdn.worldvectorlogo.com/logos/redux.svg",
+      "title": "Redux"
+    },
+    {
+        
+        "img": "https://sass-lang.com/assets/img/styleguide/white.png",
+        "title": "Sass"
+    },
+    {
+        
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png",
+        "title": "BootStrap"
+    },
+    
+    {
+       
+        "img": "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png",
+        "title": "C"
+    },
+    {
+        
+        "img": "https://upload.wikimedia.org/wikipedia/commons/3/32/C%2B%2B_logo.png",
+        "title": "C++"
+    },
+    {
+        
+        "img": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png",
+        "title": "Java"
+    },
+    {
+       
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
+        "title": "Python"
+    },
+    {
+        
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbqj9Ii13d6hx5a9kyLnC5A8A96LDSaSZv_w&s",
+        "title": "GitHub"
+    },
+    {
+        
+        "img": "https://www.cdnlogo.com/logos/v/78/vercel.svg",
+        "title": "Vercel"
+    }
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  ]
+  
+  
+  
