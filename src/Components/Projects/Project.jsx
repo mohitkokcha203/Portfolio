@@ -22,7 +22,7 @@ const projectsData = [
    },
    {
      "id": 2,
-    "image": Project2,
+    "image": Project6,
      "title": "Find Creator ",
      "view": "https://github.com/mohitkokcha203/Find-Creator",
      "code": "https://github.com/mohitkokcha203/Find-Creator",
@@ -30,7 +30,7 @@ const projectsData = [
    },
    {
      "id": 3,
-     "image": Project3,
+     "image": Project2,
      "title": "Personal Portfolio",
      "view": "https://portfolio-three-rho-26.vercel.app/",
      "code": "https://github.com/mohitkokcha203/Portfolio",
@@ -38,7 +38,7 @@ const projectsData = [
    },
    {
      "id": 4,
-     "image": Project4,
+     "image": Project3,
      "title": "Filmy Duniya Project",
      "view": "https://filmy-duniya-ochre.vercel.app/",
      "code": "https://github.com/mohitkokcha203/Filmy-Duniya",
@@ -46,7 +46,7 @@ const projectsData = [
    },
    {
      "id": 5,
-     "image": Project5,
+     "image": Project4,
      "title": "Weather App Project",
      "view": "https://weather-app-lake-six.vercel.app/",
      "code": "https://github.com/mohitkokcha203/Weather-App",
@@ -54,7 +54,7 @@ const projectsData = [
    },
    {
      "id": 6,
-     "image": Project6,
+     "image": Project5,
      "title": "Web Clone Project ",
      "view": "https://e-commerce-zeta-blue.vercel.app/",
      "code": "https://github.com/mohitkokcha203/E-commerce",
