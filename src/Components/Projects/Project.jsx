@@ -32,7 +32,7 @@ const projectsData = [
      "id": 3,
      "image": Project2,
      "title": "Personal Portfolio",
-     "view": "https://portfolio-three-rho-26.vercel.app/",
+     "view": "https://portfolio-mohit-kumar-kokchas-projects.vercel.app/",
      "code": "https://github.com/mohitkokcha203/Portfolio",
      "type":"frontend "
    },
